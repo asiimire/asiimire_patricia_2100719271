@@ -102,3 +102,16 @@ if __name__ == "__main__":
 
     # Display information of all vehicles
     display_vehicle_info(vehicles)
+
+# Reading and Writing files in python
+"""
+Working with text files
+Handling csv files
+JSON and XML file processing
+"""
+# Working with text files
+# Note: Python provides in-built functions to handle text files
+# Key concepts:
+"""
+__description
+"""
