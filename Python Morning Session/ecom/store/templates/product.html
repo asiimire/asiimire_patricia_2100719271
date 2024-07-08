@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% block content %}
+  <!-- Header -->
+  <center>
+    <div class="container">
+      <br />
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="{{ product.image.url }}" class="img-fluid rounded-start" alt="..." />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ product.name }}</h5>
+              <p class="card-text">{{ product.description }}</p>
+              {% if product.is_sale %}
+                <!-- Sale -->
+                <div class="d-flex justify-content small text-warning mb-2">
+                  <div class="bi-star-fill"></div>&nbsp;&nbsp;Sale!&nbsp;&nbsp;<div class="bi-star-fill"></div>
+                </div>
+                <!-- Product price -->
+                <strike>Ugx. {{ product.price }}</strike>
+                &nbsp; Ugx. {{ product.sale_price }}
+              {% else %}
+                Ugx. {{ product.price }}
+              {% endif %}
+              <br /><br />
+              <div class="row justify-content-center">
+                <div class="col-md-2">Quantity</div>
+                <div class="col-md-2">
+                  <select class="form-select form-select-sm" id="qty-cart">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                  </select>
+                </div>
+              </div>
+
+              <br /><br />
+              <a href="{% url 'home' %}" class="btn btn-secondary">Home</a>
+              <button type="button" value="{{ product.id }}" id="add-cart" class="btn btn-secondary">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </center>
+
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+  <script>
+    // Ensure jQuery is loaded before this script
+    $(document).ready(function () {
+      $(document).on('click', '#add-cart', function (e) {
+        e.preventDefault();
+        $.ajax({
+          type: 'POST',
+          url: '{% url "cart_add" %}',
+          data: {
+            product_id: $('#add-cart').val(), // Assuming product_id is a value you want to send
+            product_qty: $('#qty-cart option:selected').text(), // Corrected selector for selected option text
+            csrfmiddlewaretoken: '{{ csrf_token }}',
+            action: 'post'
+          },
+          success: function (json) {
+            // Update cart quantity display or other UI elements
+            $('#cart_quantity').text(json.qty); // Update cart quantity element based on response JSON
+            // Handle success response here
+          },
+          error: function (xhr, errmsg, err) {
+            // Handle error response here
+            console.log(xhr.status + ': ' + xhr.responseText); // Log the error details
+          }
+        });
+      });
+    });
+  </script>
+  
+{% endblock %}
