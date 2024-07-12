@@ -1,0 +1,438 @@
+[
+    {
+        "title": "",
+        "link": null
+    },
+    {
+        "title": "VIEW",
+        "link": "https://play.google.com/store/apps/details?id=uk.co.openweather"
+    },
+    {
+        "title": "",
+        "link": "/"
+    },
+    {
+        "title": "Guide",
+        "link": "/guide"
+    },
+    {
+        "title": "API",
+        "link": "/api"
+    },
+    {
+        "title": "Dashboard",
+        "link": "/weather-dashboard"
+    },
+    {
+        "title": "Marketplace",
+        "link": "https://home.openweathermap.org/marketplace"
+    },
+    {
+        "title": "Pricing",
+        "link": "/price"
+    },
+    {
+        "title": "Maps",
+        "link": "/weathermap"
+    },
+    {
+        "title": "Our Initiatives",
+        "link": "/our-initiatives"
+    },
+    {
+        "title": "Partners",
+        "link": "/examples"
+    },
+    {
+        "title": "Blog",
+        "link": "https://openweather.co.uk/blog/category/weather"
+    },
+    {
+        "title": "For Business",
+        "link": "https://openweather.co.uk"
+    },
+    {
+        "title": "Sign in",
+        "link": "https://openweathermap.org/home/sign_in"
+    },
+    {
+        "title": "FAQ",
+        "link": "/faq"
+    },
+    {
+        "title": "How to start",
+        "link": "/appid"
+    },
+    {
+        "title": "ChatBot assistant",
+        "link": "/chat"
+    },
+    {
+        "title": "Ask a question",
+        "link": "https://home.openweathermap.org/questions"
+    },
+    {
+        "title": "Guide",
+        "link": "/guide"
+    },
+    {
+        "title": "API",
+        "link": "/api"
+    },
+    {
+        "title": "Dashboard",
+        "link": "/weather-dashboard"
+    },
+    {
+        "title": "Marketplace",
+        "link": "https://home.openweathermap.org/marketplace"
+    },
+    {
+        "title": "Pricing",
+        "link": "/price"
+    },
+    {
+        "title": "Maps",
+        "link": "/weathermap"
+    },
+    {
+        "title": "Our Initiatives",
+        "link": "/our-initiatives"
+    },
+    {
+        "title": "Partners",
+        "link": "/examples"
+    },
+    {
+        "title": "Blog",
+        "link": "https://openweather.co.uk/blog/category/weather"
+    },
+    {
+        "title": "For Business",
+        "link": "https://openweather.co.uk"
+    },
+    {
+        "title": "Ask a question",
+        "link": "https://home.openweathermap.org/questions"
+    },
+    {
+        "title": "Sign in",
+        "link": "https://openweathermap.org/home/sign_in"
+    },
+    {
+        "title": "Speak to the Chief Meteorologist Dan Hart and his team!",
+        "link": "https://openweather.co.uk/meteorology"
+    },
+    {
+        "title": "subscribe to our service",
+        "link": "/price"
+    },
+    {
+        "title": "Disasters\n         Emergency Committee’s (DEC)",
+        "link": "https://www.dec.org.uk/appeal/ukraine-humanitarian-appeal"
+    },
+    {
+        "title": "One Call API 3.0",
+        "link": "/api/one-call-3"
+    },
+    {
+        "title": "\"One Call by Call\"",
+        "link": "/price"
+    },
+    {
+        "title": "with One Call API 3.0",
+        "link": "/api/one-call-3"
+    },
+    {
+        "title": "Pay as you call",
+        "link": "/price"
+    },
+    {
+        "title": "Professional\n                  collections",
+        "link": "/api#pro"
+    },
+    {
+        "title": "currentweather\n(current)",
+        "link": "/current"
+    },
+    {
+        "title": "hourlyforecast\n(4 days)",
+        "link": "/api/hourly-forecast"
+    },
+    {
+        "title": "dailyforecast\n(16 days)",
+        "link": "/forecast16"
+    },
+    {
+        "title": "climaticforecast\n(30 days)",
+        "link": "/api/forecast30"
+    },
+    {
+        "title": "historicalweather\n(40+ years back)",
+        "link": "/history"
+    },
+    {
+        "title": "Learn more",
+        "link": "/api#pro"
+    },
+    {
+        "title": "Minute-by-minute forecast",
+        "link": "/api/one-call-3"
+    },
+    {
+        "title": "hourly (4-day)",
+        "link": "/api/hourly-forecast"
+    },
+    {
+        "title": "daily\n               (16-day)",
+        "link": "/forecast16"
+    },
+    {
+        "title": "30-day climate forecast",
+        "link": "/api/forecast30"
+    },
+    {
+        "title": "Historical data",
+        "link": "/history-bulk"
+    },
+    {
+        "title": "API",
+        "link": "/api"
+    },
+    {
+        "title": "Bulks",
+        "link": "/bulk"
+    },
+    {
+        "title": "Historical Weather Collection",
+        "link": "/api#history"
+    },
+    {
+        "title": "Marketplace",
+        "link": "https://home.openweathermap.org/marketplace"
+    },
+    {
+        "title": "On-the-fly bulks",
+        "link": "https://home.openweathermap.org/marketplace"
+    },
+    {
+        "title": "APIs",
+        "link": "/api#history"
+    },
+    {
+        "title": "Current weather data",
+        "link": "/api#current"
+    },
+    {
+        "title": "APIs",
+        "link": "/current"
+    },
+    {
+        "title": "Prepared bulks",
+        "link": "/bulk"
+    },
+    {
+        "title": "Solar Panel Energy Prediction",
+        "link": "/api/solar-panels-and-energy-prediction"
+    },
+    {
+        "title": "Solar Irradiance API",
+        "link": "/api/solar-energy-prediction"
+    },
+    {
+        "title": "Global weather alerts via push notifications",
+        "link": "/api/push-weather-alerts"
+    },
+    {
+        "title": "Agriculture analytics",
+        "link": "https://openagro.uk/"
+    },
+    {
+        "title": "Learn more",
+        "link": "https://openagro.uk/"
+    },
+    {
+        "title": "Agro\n                  Dashboard",
+        "link": "https://home.agromonitoring.com/auth/sign-up"
+    },
+    {
+        "title": "Agro API",
+        "link": "https://agromonitoring.com/"
+    },
+    {
+        "title": "Learn\n               more",
+        "link": "https://home.agromonitoring.com/auth/sign-up"
+    },
+    {
+        "title": "Weather maps",
+        "link": "/api/weather-map-2"
+    },
+    {
+        "title": "API call",
+        "link": "/api/weather-map-2"
+    },
+    {
+        "title": "15 map layers",
+        "link": "/api/weather-map-2"
+    },
+    {
+        "title": "Interactive weather map",
+        "link": "/weathermap"
+    },
+    {
+        "title": "Learn more",
+        "link": "/api/weather-map-2"
+    },
+    {
+        "title": "14,000+ OpenWeatherMap weather API repositories on GitHub",
+        "link": "/examples"
+    },
+    {
+        "title": "GitHub",
+        "link": "https://github.com/search?q=openweathermap"
+    },
+    {
+        "title": "View solutions",
+        "link": "/examples"
+    },
+    {
+        "title": "Google Weather-Based Campaign Management with OpenWeatherMap API",
+        "link": "/examples#google1"
+    },
+    {
+        "title": "Read more",
+        "link": "/examples#google1"
+    },
+    {
+        "title": "Connect your weather station to OpenWeatherMap",
+        "link": "/stations"
+    },
+    {
+        "title": "Connect",
+        "link": "/stations"
+    },
+    {
+        "title": "Get weather data for free for open source project",
+        "link": "mailto:info@openweathermap.org"
+    },
+    {
+        "title": "Contact us",
+        "link": "mailto:info@openweathermap.org"
+    },
+    {
+        "title": "Current and Forecast APIs",
+        "link": "/api#current"
+    },
+    {
+        "title": "Historical Weather Data",
+        "link": "/api#history"
+    },
+    {
+        "title": "Weather Maps",
+        "link": "/api#maps"
+    },
+    {
+        "title": "Weather Dashboard",
+        "link": "/weather-dashboard"
+    },
+    {
+        "title": "Widgets",
+        "link": "/widgets-constructor"
+    },
+    {
+        "title": "How to start",
+        "link": "/appid"
+    },
+    {
+        "title": "Pricing",
+        "link": "/price"
+    },
+    {
+        "title": "Subscribe for free",
+        "link": "https://home.openweathermap.org/users/sign_up"
+    },
+    {
+        "title": "FAQ",
+        "link": "/faq"
+    },
+    {
+        "title": "Our technology",
+        "link": "/technology"
+    },
+    {
+        "title": "Accuracy and quality of weather data",
+        "link": "/accuracy-and-quality"
+    },
+    {
+        "title": "Connect your weather station",
+        "link": "/stations"
+    },
+    {
+        "title": "Terms and conditions of sale",
+        "link": "https://openweather.co.uk/storage/app/media/Terms/Openweather_terms_and_conditions_of_sale.pdf"
+    },
+    {
+        "title": "Privacy Policy",
+        "link": "https://openweather.co.uk/privacy-policy"
+    },
+    {
+        "title": "Website terms and conditions",
+        "link": "https://openweather.co.uk/storage/app/media/Terms/Openweather_website_terms_and_conditions_of_use.pdf"
+    },
+    {
+        "title": "About us",
+        "link": "/about-us"
+    },
+    {
+        "title": "Blog",
+        "link": "https://openweather.co.uk/blog/category/weather"
+    },
+    {
+        "title": "OpenWeather for Business",
+        "link": "https://openweather.co.uk/"
+    },
+    {
+        "title": "ChatBot assistant",
+        "link": "/chat"
+    },
+    {
+        "title": "Ask a question",
+        "link": "https://home.openweathermap.org/questions"
+    },
+    {
+        "title": "",
+        "link": "https://apps.apple.com/gb/app/openweather/id1535923697"
+    },
+    {
+        "title": "",
+        "link": "https://play.google.com/store/apps/details?id=uk.co.openweather"
+    },
+    {
+        "title": "",
+        "link": "https://www.facebook.com/groups/270748973021342"
+    },
+    {
+        "title": "",
+        "link": "https://twitter.com/OpenWeatherMap"
+    },
+    {
+        "title": "",
+        "link": "https://www.linkedin.com/company/9816754"
+    },
+    {
+        "title": "",
+        "link": "https://medium.com/@openweathermap"
+    },
+    {
+        "title": "",
+        "link": "https://t.me/openweathermap"
+    },
+    {
+        "title": "",
+        "link": "https://github.com/openweathermap"
+    },
+    {
+        "title": "Advanced Settings",
+        "link": "https://openweathermap.org/cookies"
+    }
+]
